@@ -1,0 +1,166 @@
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:#0f1020;
+color:#f5f5ff;
+margin:0;
+}
+
+header{
+background:#1a1c3a;
+padding:30px;
+text-align:center;
+border-bottom:4px solid #6a4c93;
+}
+
+nav a{
+color:white;
+background:#3c2a6b;
+padding:10px 16px;
+text-decoration:none;
+border-radius:6px;
+margin:5px;
+display:inline-block;
+font-weight:bold;
+}
+
+nav a:hover{
+background:#5c3ea3;
+}
+
+main{
+width:90%;
+margin:auto;
+padding:25px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:25px;
+}
+
+th,td{
+border:2px solid #1b1c35;
+padding:12px;
+text-align:center;
+}
+
+th{
+background:#32245e;
+color:white;
+font-size:17px;
+}
+
+.row1{
+background:#6a4c93;
+}
+
+.row2{
+background:#5c3ea3;
+}
+
+.row3{
+background:#4c3fa6;
+}
+
+.row4{
+background:#3f4fb0;
+}
+
+.row5{
+background:#355bb8;
+}
+
+.row6{
+background:#2e66bf;
+}
+
+img{
+width:150px;
+height:100px;
+object-fit:cover;
+border-radius:8px;
+border:3px solid #d6ccff;
+}
+
+img:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
+
+.button{
+text-align:center;
+margin-top:20px;
+}
+
+.button a{
+background:#3c2a6b;
+color:white;
+padding:10px 18px;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.button a:hover{
+background:#5c3ea3;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#1a1c3a;
+margin-top:40px;
+border-top:4px solid #6a4c93;
+}
+.ribbon {
+  font-size: 16px;
+  width: 50%;
+  position: relative;
+  background: #ba89b6;
+  color: #fff;
+  text-align: center;
+  padding: 1em 2em;
+  margin: 2em auto 3em;
+}
+
+.ribbon:before,
+.ribbon:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid #986794;
+  z-index: -1;
+}
+
+.ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+}
+
+.ribbon:after {
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+}
+
+.ribbon .ribbon-content:before,
+.ribbon .ribbon-content:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-color: #804f7c transparent transparent transparent;
+  bottom: -1em;
+}
+
+.ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+}
